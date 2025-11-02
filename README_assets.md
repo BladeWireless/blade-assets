@@ -1,13 +1,13 @@
-# Blade Assets Repository
+# Raku Assets Repository
 
 ## Overview
 
-This repository contains demo assets and resources for the Blade SDK platform. All assets are designed for compatibility with Raku SDK and optimized for AR experiences.
+This repository contains demo assets and resources for the Raku SDK platform. All assets are designed for compatibility with Raku SDK and optimized for AR experiences.
 
 ## Repository Structure
 
 ```
-blade-assets/
+raku-assets/
 ├── demos/
 │   ├── Space_Battleship_Defense.zip - Complete demo package with assets and documentation
 │   └── Space_Battleship_Defense.mp4 - Demo video
@@ -65,7 +65,7 @@ Assets can be accessed directly from this repository:
 
 ```bash
 # Download Space Battleship Defense package
-curl -L -O https://raw.githubusercontent.com/BladeWireless/blade-assets/main/demos/Space_Battleship_Defense.zip
+curl -L -O https://raw.githubusercontent.com/BladeWireless/raku-assets/main/demos/Space_Battleship_Defense.zip
 
 # Extract the package
 unzip Space_Battleship_Defense.zip
@@ -100,7 +100,7 @@ As part of the Raku SDK rebrand initiative, all asset metadata has been updated 
 For questions or issues related to the assets in this repository:
 
 - Review the included documentation files in each package
-- Consult the main SDK repository: https://github.com/BladeWireless/blade-sdk
+- Consult the main SDK repository: https://github.com/BladeWireless/raku-sdk
 - Check the demos documentation for specific implementation guidance
 
 ## License
@@ -114,4 +114,4 @@ Some assets use third-party components with the following licenses:
 
 ## Contributing
 
-This repository is managed by BladeWireless. For contribution guidelines or to report issues, please contact the SDK team via the main blade-sdk repository.
+This repository is managed by BladeWireless. For contribution guidelines or to report issues, please contact the SDK team via the main raku-sdk repository.
