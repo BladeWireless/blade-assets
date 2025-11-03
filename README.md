@@ -11,7 +11,8 @@ raku-assets/
 ├── demos/
 │   ├── Space_Battleship_Defense.zip - Complete demo package with assets and documentation
 │   └── Space_Battleship_Defense.mp4 - Demo video
-└── README_assets.md - This file
+├── README.md - This file
+└── MIGRATION.md - Asset migration guide for dependent repositories
 ```
 
 ## SDK Compatibility
@@ -83,17 +84,21 @@ unzip Space_Battleship_Defense.zip
 
 | Date | Version | Changes |
 |------|---------|---------|
+| 2025-11-03 | 1.2 | Repository rebrand complete - renamed to raku-assets with migration guide |
 | 2025-10-31 | 1.1 | Updated asset metadata for Raku SDK rebrand - replaced AR1+/AR2 references with Raku |
 | 2025-10-15 | 1.0 | Initial release with Space Battleship Defense demo package |
 
-## Raku Rebrand Update (2025-10-31)
+## Raku Rebrand
 
-As part of the Raku SDK rebrand initiative, all asset metadata has been updated to reflect the new platform naming:
+As part of the Raku SDK rebrand initiative, this repository has been rebranded from `blade-assets` to `raku-assets`:
 
-- **Legacy References Removed**: AR1+ and AR2 hardware references
-- **Updated To**: Raku platform and SDK compatibility
-- **Files Updated**: All documentation within Space_Battleship_Defense.zip package
+- **Repository Name**: Updated from `blade-assets` to `raku-assets`
+- **Asset Metadata**: All references updated from AR1+/AR2 to Raku SDK
+- **Platform References**: Updated to Raku platform and SDK compatibility
+- **Documentation**: Complete rebrand documentation and migration guide included
 - **Compatibility**: Full backward compatibility maintained for Raku devices
+
+See [MIGRATION.md](./MIGRATION.md) for guidance on updating references to this repository.
 
 ## Support
 
